@@ -1,0 +1,213 @@
+/* =Global
+-------------------------------------------------------------- */
+html {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+body {
+    background-color:rgb(255,255,255);
+    color:rgb(255,255,255);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:300;
+    font-size:2vw;
+    line-height:1.5;
+    font-family: Univers Condensed;
+    height:100%;
+    width: 100%;
+     display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column; 
+   
+}
+
+.container{
+	padding-right: -15px;
+    padding-left: -15px;
+ flex: 1;
+  -webkit-flex: 1;
+  width: 100%;
+
+ 
+}
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	line-height:1;
+	font-weight: 600;
+	color: black;
+	
+}
+a {
+    text-decoration:none;
+    color:rgb(0,0,0);
+}
+a:hover {
+   
+}
+ p{
+	color:rgb(50,50,50);
+ }
+
+.news{margin-top: 10%;}
+#footerContact p {font-size: 14px;}
+
+/*header*/
+#title {width: 100%; min-width: 100%;}
+#logo img {float: left; margin-left: 3%;margin-top: -2.3%; width: 15%;}
+#toptitle {float: left; margin-left: 1%; margin-top: -2.3%; border-left: solid; border-color: black; padding-left: 1%; font-size: 30px;}
+#topleft {float: right; margin-top: -4%; margin-right: 3%; text-align: right;}
+#faq {text-decoration:underline;}
+
+/*navigator*/
+nav{text-align: center;}
+.white.item {color: white;}
+/*leftsidebar*/
+#leftsidebar{float: left; width: 23%;margin-right: 3%;}
+#leftsidebar img{width:90%;}
+#leftsidebar-videoT {margin-top: 10%;width: 90%; text-align: center; height:100px;
+					background-color: rgb(229, 229, 229);}
+
+
+/*middle*/
+#middlecontent {float: left;width: 45%;margin-right: 3%; margin-top: 2%;}
+#search1{float: left;  border: solid; border-color:#999999; padding: 1%; border-right: hidden;}
+#search2 {float: left; border: solid; border-color:#999999;padding: 1%;}
+
+#search1 a:hover,
+#search1 a:focus,
+#search1 a:active,
+#search2 a:hover,
+#search2 a:focus,
+#search2 a:active
+{
+color:#990033;
+}
+
+#searchform {border: solid; border-color: #999999; height:200px; width: 100%;}
+#searchform form {margin-top: 10%;margin-bottom: 10%;}
+#searchlink1 { text-decoration:underline;}
+#searchlink2, #searchlink3 {text-decoration:underline;}
+
+#Middlebuttom {margin-top: 8%;}
+#Middlebuttom a{color: white;}
+#mb1{margin-top: 2%; float: left; width: 48%; margin-right: 2%; height: 80px;}
+#mb2{margin-top: 2%;float: left; width: 48%; margin-left:  2%;height: 80px;}
+#mb3{margin-top: 2%;float: left; width: 48%; margin-right: 2%; height: 80px;}
+#mb4{margin-top: 2%;float: left; width: 48%; margin-left:  2%;height: 80px;}
+#mb5{margin-top: 2%;float: left; width: 48%; margin-right: 2%; height: 80px;}
+#mb6{margin-top: 2%;float: left; width: 48%; background-color: #cccccc;margin-left:  2%;height: 80px;}
+#Middlebuttom p {text-align: center; color: white; margin-top: 10%; font-weight: 600;}
+
+
+/*rightsidebar*/
+#rightsidebar {float: left; width: 23%; margin-left: 0; margin-top: 2%;}
+#time {text-align: center;width: 100%; height: 40%; margin-left: 10%;}
+#time-more {text-decoration:underline;}
+
+#news {margin-top: 7%; width: 100%; margin-left: 10%;}
+.newsevent1{margin-top: 5%;float: left; background-color: #cccccc; width: 25%; height: 40px; margin-right: 5%;}
+.newsevent2{margin-top: 5%;float:left; background-color: #cccccc; width: 70%; height: 40px;}
+#more {float: right;text-decoration:underline;}
+
+/*t*/
+#footer { width: 100%;
+  height: 280px;background-color:rgb(233,233,233);}
+ .foot-top{width: 100%; height: 85%;}
+.foot-1{margin-top: 3%; width: 20%;float: left;margin-left: 5%;}
+.foot-1 img{width:100%;height: auto;margin-top: 8%;}
+.foot-2{margin-top: 3%;width: 30%;float: left;margin-left: 5%;text-align: center;}
+.foot-3{margin-top: 3%; width:35%;float: left; text-align: right;margin-right: 5%;}
+.sociali{width:7%; margin-left: 1%;}
+#copywrite{text-align: center;}
+
+
+/* =Template
+-------------------------------------------------------------- */
+
+#wrapper {
+    margin: auto;
+    width:100%;
+    height: 100%;
+				min-height: 100%;
+		
+    	width:100%;
+    min-width:1000px;
+}
+
+
+/* =Top Bar
+-------------------------------------------------------------- */
+
+
+
+
+/* =Header
+-------------------------------------------------------------- */
+header {
+	padding:80px 0;
+	width: 100%;
+	background-color:rgb(233,233,233); 
+}
+#title {
+	width:100%;
+	text-align:center;
+	height: 35%;
+}
+#title h1 {
+	color:rgb(200,200,200);
+	font-size: 30px;
+	margin-bottom:10px;
+}
+#title h2 {
+	color:rgb(200,200,200);
+	font-size:20px;
+
+}
+
+
+/* =Footer
+-------------------------------------------------------------- */
+.content {
+    width:90%;
+    
+    min-height:100%;
+				margin-left: 5%;
+				margin-right: 5%;
+				margin-top: 5%;
+    
+}
+
+
+
+/* =Extras
+-------------------------------------------------------------- */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+
+/* =Styles for the lab
+-------------------------------------------------------------- */
+/* content */
+
+
+nav {
+	background-color:#990033;
+	padding: 0;
+}
+
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+		
+				background-color:#666666;
+}
+.ui.link.list>a.item{}
+/* style sub level links 
+--------------------------------------------------------------*/

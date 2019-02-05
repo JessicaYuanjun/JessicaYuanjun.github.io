@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- title and meta -->
+    <link rel="icon" href="img/mclogo.png" type="image/x-icon"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description" content="A simple slide down menu using jQuery and CSS" />
+    <title>Library</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style1.css" />
+    <!--<link rel="stylesheet" href="css/style1.css" />-->
+    <link rel="stylesheet" href="css/semantic.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/icon.css" />
+
+    <!-- js -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/dropDown.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+
+</head>
+
+<body class="site">
+
+    <div id="wrapper">
+
+        <div class="container">
+
+            <header>
+                <div id="title">
+                    <div id="logo">
+                        <a href="https://www.mcmaster.ca/"><img src="img/logo.png" alt=""></a>
+                    </div>
+
+
+                    <div id="toptitle">
+                        <div class="ui small header">McMaster Library</div>
+                        
+                    </div>
+
+                    <div id="topleft">
+                        <p><a href="">Mosiac</a> | <a href="">Directory</a> | <a href="">IT Services</a></p>
+                        <p>
+                            <div class="ui search">
+                                <div class="ui icon input">
+
+                                    <input type="text" placeholder="Search.." name="search">
+
+                                    <i class="search icon"></i></button>
+
+                                </div>
+                                <div class="results"></div>
+                            </div>
+                        </p>
+                        <p id="faq"><a href=""><i class="question icon"></i>FAQ</a></p>
+                    </div>
+                </div>
+
+            </header>
+
+            <nav>
+
+                <div class="ui white secondary six item menu">
+                    <a class="white item" href="semantic-demo.html">Home</a>
+
+
+                    <div class="ui simple dropdown item">Collections<i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a class="item" href="#">Archives&Research Collection</a>
+                            <a class="item" href="#">Data&Statistics</a>
+                            <a class="item" href="#">Digital Archive</a>
+                            <a class="item" href="#">Digital Collections</a>
+                            <a class="item" href="#">MacSphere</a>
+                            <a class="item" href="#">Government Publications</a>
+                            <a class="item" href="#">History of Health & Medicine</a>
+                            <a class="item" href="#">Lyons New Media Centre</a>
+                            <a class="item" href="#">Maps/GIS</a>
+                            <a class="item" href="#">Music</a>
+                            <a class="item" href="#">Theses</a>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="ui simple dropdown item">Use the Libraries <i class="dropdown icon"></i>
+
+                        <div class="menu">
+
+                            <div class="ui item two column divided grid">
+                                <div class="column">
+                                    <h4 class="ui header">Services</h4>
+                                    <div class="ui link list">
+                                        <a class="item" href="#">Borrowing</a>
+                                        <a class="item" href="#">How to Find</a>
+                                        <a class="item" href="#">Video Tutorial</a>
+                                        <a class="item" href="#">Learning Support</a>
+                                        <a class="item" href="#">Data Analysis Support</a>
+                                        <a class="item" href="#">Suggest New Items</a>
+                                        <a class="item" href="#">Off-Campus Access</a>
+                                        <a class="item" href="#"> Library Services</a>
+                                        <a class="item" href="#">Request Forms</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="column">
+                                    <h4 class="ui header">Facitilites</h4>
+                                    <div class="ui link list">
+                                        <a class="item" href="#">Hours</a>
+                                        <a class="item" href="#">Equipment</a>
+                                        <a class="item" href="#">Floor Plans</a>
+                                        <a class="item" href="#">Study Areas</a>
+                                        <a class="item" href="#">Thode Makerspace</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="ui simple dropdown item">Research<i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a class="item" href="#">Catalogue</a>
+                            <a class="item" href="#">Database</a>
+                            <a class="item" href="#">e-Journals</a>
+                            <a class="item" href="#">Course Reserves</a>
+                            <a class="item" href="#">Interlibrary Loan</a>
+                            <a class="item" href="#">Subject & Course Guide</a>
+                            <a class="item" href="#">Research Guide</a>
+                            <a class="item" href="#">Citation & Style Guide</a>
+                            <a class="item" href="#">Open Access</a>
+                            <a class="item" href="#">Research Data Management</a>
+                            <a class="item" href="#">Sherman Center For Digital Scholarship</a>
+                            <a class="item" href="#">Research Help</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="ui simple dropdown item">Teaching<i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a class="item" href="#">Classroom Technologies</a>
+                            <a class="item" href="#">Book Media Materials</a>
+                            <a class="item" href="#">Create Course Reserves</a>
+                            <a class="item" href="#">Link to e-Resources</a>
+                            <a class="item" href="#">Request Information Literacy Help</a>
+                            <a class="item" href="#">2.0 Teaching Toolbox</a>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="ui simple dropdown item">About<i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a class="item" href="#">Contact Us</a>
+                            <a class="item" href="#">About Us</a>
+                            <a class="item" href="#">Support Us</a>
+                            <a class="item" href="#">News & Events</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </nav>
+
+
+            <div class="content">
+
+                <div id="leftsidebar">
+                    <p><a href=""><img src="img/ASK.png" alt=""></a></p>
+                    <p><a href=""><img src="img/Login.png" alt=""></a></p>
+                    <p><a href=""><img src="img/Book.png" alt=""></a></p>
+                    <p><a href=""><img src="img/Access.png" alt=""></a></p>
+
+
+
+                    <div class="ui vertical menu">
+                        <a href="" class="item">
+                            <center><i class="play circle outline icon"></i> How Library Stuff Works?</center>
+                        </a>
+                        <div class="link item">
+                            <center>Respect</center>
+                        </div>
+                        <div class="link item">
+                            <center>Feedback</center>
+                        </div>
+                        <div class="link item">
+                            <center>Health Sciences Library</center>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="middlecontent">
+                    <div class="middle">
+                        <div class="ui top attached tabular menu">
+
+                            <a class="item active">Quick Search</a>
+                            <a class="item">Catalogue</a>
+                            <a class="item">Database</a>
+                            <a class="item">e-Jounals</a>
+                        </div>
+                        <div class="ui bottom attached segment">
+                            <br><br>
+                            <center>
+                                <div class="ui icon input">
+                                    <input type="text" placeholder="Search...">
+                                    <i class="search link icon"></i>
+                                </div>
+
+                                <div class="ui horizontal list">
+                                    <br><br>
+                                    <p class="item" id="searchlink1"><a href="">Advane Search</a></p>
+                                    <p class="item" id="searchlink2"><a href="">Classic Search</a></p>
+                                    <p class="item" id="searchlink3"><a href="">Search Tips</a></p>
+                                    <br><br>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div id="Middlebuttom">
+                        <h3>Subjects & Course Guides</h3>
+                        <a href="">
+                        <div id="mb1" style="background-image: url(img/Business.jpg);">
+                            <p>Business</p>
+                        </div></a>
+                        <a href=""><div id="mb2" style="background-image: url(img/Eng.jpg);">
+                            <p>Engineering</p>
+                        </div></a>
+                        <a href=""><div id="mb3" style="background-image: url(img/humanity.jpg);">
+                            <p>Humanities</p>
+                        </div></a>
+                        <a href=""><div id="mb4" style="background-image: url(img/sci.jpg);">
+                            <p>Science</p>
+                        </div></a>
+
+                        <a href=""><div id="mb5" style="background-image: url(img/ss.jpg);">
+                            <p>Social Science</p>
+                        </div></a>
+                        <a href=""><div id="mb6">
+                            <p>Find a Guide</p>
+                        </div></a>
+
+                    </div>
+
+                </div>
+
+
+                <div id="rightsidebar">
+                    <div id="time">
+
+                        <div class="ui card">
+                            <div class="content">
+                                <div class="header">Hours for Mar. 30</div>
+                            </div>
+                            <div class="content">
+
+                                <div class="ui small feed">
+                                    <div class="event">
+                                        <div class="content">
+                                            <div class="summary">
+                                                Mills: 7am-6pm
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event">
+                                        <div class="content">
+                                            <div class="summary">
+                                                Innis: 9am-5pm
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event">
+                                        <div class="content">
+                                            <div class="summary">
+                                                Thode: Closed
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event">
+                                        <div class="content">
+                                            <div class="summary">
+                                                Ask: Closed
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="extra content">
+                                <button class="ui button">More Hourse & Alert</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="news">
+                        <h3>News & Event</h3>
+
+                        <div class="ui relaxed divided list">
+                            <div class="item">
+
+                                <div class="content">
+                                    <a class="header">April 1th</a>
+                                    <div class="description">Pellentesque habitant morbi tristique senectus et. </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+
+                                <div class="content">
+                                    <a class="header">March 30th</a>
+                                    <div class="description">Mauris vel lacus vitae felis vestibulum volutpat. </div>
+                                </div>
+                            </div>
+                            <div class="item">
+
+                                <div class="content">
+                                    <a class="header">March 28th</a>
+                                    <div class="description">Suspendisse quam leo, molestie sed</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="content">
+                                    <a class="header">March 27th</a>
+                                    <div class="description">Suspendisse quam leo</div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="content">
+                                    <a class="header">More...</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+                <!---->
+            </div>
+
+        </div>
+        <div id="footer">
+			<div class="foot-top">
+            <div class="foot-1">
+                <img src="img/logo.png " alt="">
+
+            </div>
+
+            <div class="foot-2">
+                <h4>Quick Links</h4>
+                <div class="ui black link list">
+                    <a class="active item">Support Us</a>
+                    <a class="active item">About Us</a>
+                    <a class="active item">Help</a>
+                    <a class="active item">Terms of Use</a>
+                    <a class="active item">Privacy Policy</a>
+                    <a class="active item"><i class="user icon"></i> Admin Login</a>
+                </div>
+
+            </div>
+
+            <div class="foot-3">
+
+                <div id="footerContact">
+                    <h4>Contact Us</h4>
+                    <p>
+						<a href="http://library.mcmaster.ca/news/"><img class="sociali" src="img/news.png" alt=""></a>
+						<a href="https://www.facebook.com/maclibraries"><img class="sociali" src="img/fb.png" alt="" ></a>
+						<a href="https://twitter.com/maclibraries"><img class="sociali" src="img/tw.png" alt=""></a>
+						<a href="https://www.youtube.com/user/maclibraries"><img class="sociali" src="img/ytb.png" alt=""></a>
+						<a href="https://www.instagram.com/macmillslibrary/"><img class="sociali" src="img/ins.png" alt=""></a>
+						<a href="http://snapchat.com/add/maclibraries"><img class="sociali" src="img/sc.png" alt=""></a>
+					
+					</p>
+                    <p>McMaster University Library</p>
+                    <p>Add:1280 Main St W, Hamilton, ON L8S 4L8</p>
+                    <p>Tel: 905-525-9140</p>
+                    <p>E-mail:<a href="mailto">Library@lll.com</a></p>
+				</div>
+			</div>
+			</div>
+				<p id="copywrite">© 2018 McMaster University</p>
+			</div>
+		</div>
+
+
+	</body>
+</html>

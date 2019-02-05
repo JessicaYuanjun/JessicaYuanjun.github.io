@@ -1,0 +1,1139 @@
+ /* =Global -------------------------------------------------------------- */
+ html {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+body {
+	background-color:rgb(255,255,255);
+	color:rgb(5,5,5);
+	font-family:'Ubuntu',sans-serif;
+	font-weight:300;
+	font-size:18px;
+	line-height:1.5;
+	height:100%;
+ width: 100%;
+ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;;
+}
+/* Headings */
+p, li {
+ font-size: 1.5vw;
+}
+ h1,h2,h3,h4,h5,h6 {
+	line-height:1;
+	font-weight:700;
+}
+h1 {
+	font-size:7vw;
+	padding-bottom:0.5em;
+	color:white;
+}
+h2 {
+	font-size:5vw;
+	color:white;
+	padding-bottom:0.3em;
+}
+h3 {
+	font-size:5vw;
+	padding-bottom:0.3em;
+ 
+}
+h4 {
+	font-size:3vw;
+	padding-bottom:0.3em;
+ color: white;
+}
+
+h5 {
+	font-size:2vw;
+	padding-bottom:0.3em;
+ color: white;
+}
+h6 {
+	font-size:3vw;
+	padding-bottom:0.3em;
+text-align: center;
+}
+
+img {
+	width:100%;
+ height: auto;
+ 
+}
+.Layer1 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100vh;
+	z-index:-1;
+
+ display: block;
+}
+
+.Layer1 img{
+ transform: translate3d(0px,0px,0px);
+ height: auto;
+ width: 100%;
+ position: relative;
+ z-index: 1;
+}
+
+.Layer3 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	background-color: black;
+}
+
+/*homepage*/
+ *:focus {
+            outline: none;
+        }
+
+
+      
+
+        #info {
+            position: absolute;
+            top: 0;
+            right: 0;
+            max-width: 300px;
+            color: #212121;
+            background-color: rgba(255, 255, 255, 0.60);
+            font-size: 150%;
+           display: none;
+        }
+.home-page-content-top {
+text-align: center;
+position:relative;
+margin-top:23%;
+margin-bottom:29%;
+}
+
+.homebody{
+ background-color: white;
+}
+
+.home-page-content-p1 {
+position:relative;
+margin-right: 5%;
+margin-left: 5%;
+ width: 90%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+}
+
+.home-page-content-2{
+position:relative; 
+margin-right: 5%;
+margin-left: 5%;
+width: 90%; 
+}
+
+
+.home1 img {
+	width:90%;
+ size: landscape;
+ border-radius:50%;
+}
+.home2 li,.home3 li {
+	margin-top:0.1em;
+	margin-bottom:0.1em;
+	list-style-type:circle;
+}
+.home-page-content-p1 h3 {
+	text-align:center;
+}
+.c {
+
+
+}
+.b{
+ font-weight: 600
+}
+
+.d{
+}
+.home1,.home2,.home3 {
+	float:left;
+	width:32%;
+	position:relative;
+ background-color: white;
+}
+.home1,.home2,.home3 {
+
+}
+
+.home-page-content-3{
+ height: 40vw;
+ background-color: white;
+ }
+ 
+ .hh{
+ text-align: center;
+ padding-bottom: 2%;
+ margin-bottom: 2%;
+ font-size: 3vw;
+ font-weight: 600;
+ border-bottom: dashed;
+}
+ .university{
+ margin-top: 2%;
+ width: 90%;
+ }
+/*workpage&academicpage*/
+.work-page-content-top {
+	position:relative;
+	margin-top:15%;
+	margin-bottom:30%;
+ padding-left: 5%;
+
+ padding-top: 3%;
+	
+ padding-bottom: 2%;
+ padding-top: 2%;
+}
+
+.econtent{
+width: 90%;
+padding: 2%;
+height: 27vw;
+}
+
+
+.work1 img{
+ height:24vw;
+ }
+.work1 {
+width:40%;
+float:left;
+margin-right:5%;
+margin-left: 5%;
+}
+
+.work2 {
+width:45%;
+margin-right: 5%;
+float:left;
+}
+.work2 li,.academic2 li {
+	list-style-type:circle;
+	line-height:2;
+}
+ 
+.eh p{
+ text-align: center;
+ padding-bottom: 2%;
+ margin-bottom: 2%;
+ font-size: 3vw;
+ font-weight: 600;
+ border-bottom: dashed;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.experiencetitle{
+ font-weight: 600;
+}
+
+/*profolio*/
+.profolio-page-content-top {
+ position:relative;
+	margin-top:15%;
+	margin-bottom:29%;
+ margin-left: 5%;
+}
+.portfoliowebdemo{
+ width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.webdemo{float:left;width: 45%;padding: 2%; margin-bottom: 5%;}
+.webdemo img{width: 100%;height: 32vw;}
+.webdemo li{list-style-type: circle; line-height:2; }
+#xieti{font-style: italic; font-size: 1.3vw;}
+.portfoliop{
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+float: clear;
+}
+
+.titlep{font-size: 2vw;font-weight: 600;}
+.propicture {
+
+width:31%;
+float:left;
+padding: 1%;
+display: flex;
+height: 27vw;
+margin-bottom: 3%;
+}
+
+.portfoliosvg{
+ width: 90%;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+.svg{
+width:31%;
+padding: 1%;
+float: left;
+}
+.svg iframe{
+ width: 100%;
+ height: 23vw; 
+}
+/*aboutme*/
+.aboutme-page-content-top {
+	position:relative;
+	margin-top:18%;
+	margin-bottom:35%;
+
+ padding-bottom: 2%;
+ padding-top: 2%;
+}
+.aboutme-page-content-top h2, .aboutme-page-content-top h5{
+ margin-left: 5%;
+}
+.aboutme1 {
+	position:relative;
+	margin-bottom:10%;
+ width: 90%;
+ margin:0 5% 10% 5%;
+ 
+}
+
+.aboutme2-content {
+	position:relative;
+ margin-left: 5%;
+ margin-right: 2%;
+	width:43%;
+	height:330px;
+	float:left;
+}
+
+.aboutme2-content-2 {
+	position:relative;
+ margin-left: 2%;
+ margin-right: 5%;
+	width:43%;
+	height:330px;
+	float:left;
+}
+.aboutme3 {
+ width: 90%;
+ margin-left: 5%;
+ margin-right: 5%;
+	float:left;
+	
+}
+
+.aboutmep
+{
+ width: 100%;
+ padding-bottom: 30%;
+}
+
+
+.aboutmepicture{
+	width:20%;
+	float:left;
+height: 18vw;
+}
+
+.bott {
+	width:31%;
+	float:left;
+padding: 2%;
+display: flex;
+height: 8vw;
+}
+
+#aboutme-photo-p{text-align: center;}
+.aboutme3 p {
+	margin-bottom:2%;
+}
+.aboutme2-content frame {
+	border:0;
+ 
+}
+/*contact*/
+.contact-page-content-top {
+	position:relative;
+	margin-top:18%;
+	margin-bottom:33%;
+
+ padding-bottom: 2%;
+ padding-top: 2%;
+}
+
+.contact-page-content-top h2, .contact-page-content-top h5{
+ margin-left: 5%;
+}
+
+.contact-bottom {
+	width:90%;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.contact-form {
+	float:left;
+	width:50%;
+ margin-bottom: 5%;
+}
+
+
+.contact-form img{
+ width: 40%;
+ margin-top: 10%;
+margin-left: auto;
+margin-right: auto;
+}
+.contact-map {
+	width:100%;
+ 
+}
+
+.contact-map frame {
+	border:0;
+
+
+}
+a {
+	text-decoration:none;
+	color:rgb(100,150,200);
+}
+a:hover {
+	color:rgb(175,175,175);
+}
+p {
+	color:rgb(50,50,50);
+	line-height:2;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+/* =Template -------------------------------------------------------------- */
+
+ #wrapper {
+	width:100%;
+	min-height:100%;
+	height:100%;
+ padding-bottom:200px;
+ flex: 1;
+}
+/* =Footer -------------------------------------------------------------- */
+ .footer {
+	overflow:auto;
+	width:100%;
+	padding-top:5%;
+ bottom: 0;
+ width: 100%;
+ height: 180px;
+ margin-top: -180px;
+ background-color:#d7d7d7;
+}
+.footer p {
+	text-align:center;
+	font-size: 1.5vw;
+}
+.footer img
+{
+ width: 3%;
+ margin:1%;
+ margin-bottom: 5%;
+}
+.content {
+	width:100%;
+max-width: 100%;
+	min-height:100%;
+	
+}
+/* =Extras -------------------------------------------------------------- */
+ .clearfix:after {
+	visibility:hidden;
+	display:block;
+	content:"";
+	clear:both;
+	height:0;
+}
+/*dropdown*/
+ nav {
+	font-size:large;
+	font-weight:500;
+	padding:10px 0;
+ text-align: center;
+ padding-top: 2%;
+
+}
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+nav ul li {
+	display:inline-block;
+	position:relative;
+}
+/* sub navigation --------------------------------------------------------------*/
+ nav li ul {
+	position:absolute;
+	left:0;
+	top:40px;
+	/* make this equal to the line-height of the links (specified below) */
+     width:100%;
+}
+nav li li {
+	position:relative;
+	margin:0;
+	display:block;
+}
+nav li li ul {
+	position:absolute;
+	top:0;
+	left:200px;
+	/* make this equal to the width of the sub nav above */
+     margin:0;
+}
+/* style all links -------------------------------------------------------------*/
+ nav a {
+	line-height:40px;
+	padding:0 0.5em;
+	margin:0 0.5em;
+}
+nav a {
+	color:#fff;
+	text-decoration:none;
+	display:block;
+}
+nav a:hover,nav a:focus,nav a:active {
+	color:rgb(175,175,175);
+}
+/* style sub level links --------------------------------------------------------------*/
+ nav li li a {
+	border-bottom:solid 1px rgb(255,255,255);
+	margin:0 10px;
+	padding:0;
+}
+nav li li:last-child a {
+	border-bottom:none;
+}
+/* hide sub menu links --------------------------------------------------------------*/
+ ul.sub-menu {
+	display:none;
+}
+/* show arrows for dropdowns --------------------------------------------------------------*/
+ nav li.dropdown > a {
+	background-image:url('../img/arrow-down.png');
+	background-position:right 20px;
+	background-repeat:no-repeat;
+}
+nav li li.dropdown > a {
+	background-image:url('../img/arrow-right.png');
+	background-position:right 16px;
+	background-repeat:no-repeat;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+    /* =Global -------------------------------------------------------------- */
+ html {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+body {
+	background-color:rgb(255,255,255);
+	color:rgb(5,5,5);
+	font-family:'Ubuntu',sans-serif;
+	font-weight:300;
+	font-size:18px;
+	line-height:1.5;
+	height:100%;
+ width: 100%;
+ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;;
+}
+/* Headings */
+p, li {
+ font-size: 3.3vw;
+}
+nav li{
+  font-size: 2.3vw;
+}
+ h1,h2,h3,h4,h5,h6 {
+	line-height:1;
+	font-weight:700;
+}
+h1 {
+	font-size:9vw;
+	padding-bottom:0.5em;
+	color:white;
+}
+h2 {
+	font-size:7vw;
+	color:white;
+	padding-bottom:0.3em;
+}
+h3 {
+	font-size:7vw;
+	padding-bottom:0.3em;
+ 
+}
+h4 {
+	font-size:5vw;
+	padding-bottom:0.3em;
+ color: white;
+}
+
+h5 {
+	font-size:2.5vw;
+	padding-bottom:0.3em;
+ color: white;
+}
+h6 {
+	font-size:5vw;
+	padding-bottom:0.3em;
+text-align: center;
+}
+
+img {
+	width:100%;
+ height: auto;
+ 
+}
+.Layer1 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100vh;
+	z-index:-1;
+
+ display: block;
+}
+
+.Layer1 img{
+ transform: translate3d(0px,0px,0px);
+ height: auto;
+ width: 100%;
+ position: relative;
+ z-index: 1;
+}
+
+.Layer3 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+
+/*homepage*/
+ *:focus {
+            outline: none;
+        }
+
+
+      
+
+        #info {
+            position: absolute;
+            top: 0;
+            right: 0;
+            max-width: 300px;
+            color: #212121;
+            background-color: rgba(255, 255, 255, 0.60);
+
+            font-size: 150%;
+            padding: 10px;
+
+            display: none;
+        }
+.home-page-content-top {
+text-align: center;
+position:relative;
+margin-top:13%;
+margin-bottom:29%;
+}
+
+.homebody{
+ background-color: white;
+}
+
+
+.home-page-content-p1 {
+position:relative;
+margin-right: 5%;
+margin-left: 5%;
+width: 90%;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+.home-page-content-2{
+background-color: white;
+position:relative; 
+margin-right: 5%;
+margin-left: 5%;
+width: 90%;
+height: 20%; 
+}
+
+
+.home1 img {
+	width:90%;
+ size: landscape;
+ border-radius:50%;
+}
+.home2 li,.home3 li {
+	margin-top:0.1em;
+	margin-bottom:0.1em;
+	list-style-type:circle;
+}
+.home-page-content-p1 h3 {
+	text-align:center;
+}
+
+.home-page-content-3{
+ height: 180vw;
+ background-color: white;
+ }
+
+.home1{
+ width:100%;
+	position:relative;
+ margin-left: 5%;
+ margin-right: 5%;
+ background-color: white;
+}
+.home2,.home3 {
+	width:90%;
+	position:relative;
+ margin-left: 5%;
+ margin-right: 5%;
+ background-color: white;
+}
+
+.c, .b{
+ text-align: center;
+}
+.d{margin-left: 10%;}
+
+#mcgill{
+ padding-bottom: 3%;
+ border-bottom: dashed;
+ margin-left: 5%;
+}
+.home1,.home2,.home3 {
+	
+}
+
+ .hh{
+ text-align: center;
+ padding-bottom: 2%;
+ margin-bottom: 12%;
+ font-size: 6vw;
+ font-weight: 600;
+ border-bottom: dashed;
+}
+ .university{
+ margin-top: 2%;
+ width: 90%;
+ }
+/*workpage&academicpage*/
+.work-page-content-top {
+	position:relative;
+	margin-top:15%;
+	margin-bottom:29%;
+ padding-left: 5%;
+ padding-top: 3%;
+ padding-bottom: 2%;
+ padding-top: 2%;
+}
+
+.econtent{
+width: 90%;
+padding: 2%;
+height:100%;
+margin-bottom:3%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+.work1 img{
+ height:47vw;
+ 
+ }
+.work1 {
+width:90%;
+margin-right:5%;
+margin-left: 5%;
+}
+
+.work2 {
+width:90%;
+margin-right: 5%;
+margin-left: 5%;
+padding-bottom: 10%;
+
+}
+.work2 li,.academic2 li {
+	list-style-type:circle;
+	line-height:2;
+}
+ 
+.eh p{
+ text-align: center;
+ padding-bottom: 2%;
+ margin-bottom: 2%;
+ font-size: 6vw;
+ font-weight: 600;
+ border-bottom: dashed;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.experiencetitle{
+ font-weight: 600;
+ text-align: center;
+}
+
+/*profolio*/
+.profolio-page-content-top {
+ position:relative;
+	margin-top:10%;
+	margin-bottom:19%;
+ margin-left: 5%;
+}
+
+.portfoliop{
+ 
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+.portfoliowebdemo{
+ width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.webdemo{width: 90%;margin-left: 5%; margin-right: 5%;}
+.webdemo img{width: 100%;height: 62vw;}
+.webdemo li{list-style-type: circle; line-height:2; }
+#xieti{font-style: italic; font-size: 3.3vw;}
+.portfoliop{
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+float: clear;
+}
+
+.titlep{font-size: 4vw;font-weight: 600;}
+
+
+
+.propicture {
+width:48%;
+float:left;
+padding: 1%;
+display: flex;
+height: 42vw;
+margin-bottom: 3%;
+}
+
+.portfoliosvg{
+ width: 90%;
+
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+.svg{
+width:90%;
+margin-left: 5%;
+margin-right: 5%;
+
+}
+.svg iframe{
+ width: 100%;
+ height: 63vw; 
+}
+/*aboutme*/
+.aboutme-page-content-top {
+	position:relative;
+	margin-top:12%;
+	margin-bottom:25%;
+
+ padding-bottom: 2%;
+ padding-top: 2%;
+}
+.aboutme-page-content-top h2, .aboutme-page-content-top h5{
+ margin-left: 5%;
+}
+.aboutme1 {
+	position:relative;
+	margin-bottom:10%;
+ width: 90%;
+ margin:0 5% 10% 5%;
+ 
+}
+
+.aboutme2-content {
+	position:relative;
+ margin-left: 5%;
+ margin-right: 5%;
+	width:90%;
+ height: 40vw;
+	
+}
+
+.aboutme2-content-2 {
+	position:relative;
+ margin-left: 5%;
+ margin-right: 5%;
+	width:90%;
+}
+.aboutme3 {
+ width: 90%;
+ margin-left: 5%;
+ margin-right: 5%;
+	float:left;
+	
+}
+
+.aboutmep
+{
+ width: 100%;
+}
+
+#aboutme-photo-p{text-align:inherit;}
+
+.aboutmepicture{
+	width:50%;
+height: 48vw;
+}
+
+.bott {
+	width:31%;
+	float:left;
+padding: 2%;
+display: flex;
+height: 8vw;
+}
+
+.aboutme3 p {
+	margin-bottom:2%;
+}
+.aboutme2-content frame {
+	border:0;
+ 
+}
+/*contact*/
+.contact-page-content-top {
+	position:relative;
+	margin-top:12%;
+	margin-bottom:18%;
+
+ padding-bottom: 2%;
+ padding-top: 2%;
+}
+
+.contact-page-content-top h2, .contact-page-content-top h5{
+ margin-left: 5%;
+}
+
+.contact-bottom {
+	width:90%;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.contact-form {
+	float:left;
+	width:50%;
+ margin-bottom: 5%;
+}
+
+
+.contact-form img{
+ width: 40%;
+ margin-top: 30%;
+margin-left: auto;
+margin-right: auto;
+}
+.contact-map {
+	width:100%;
+ 
+}
+
+.contact-map frame {
+	border:0;
+}
+a {
+	text-decoration:none;
+	color:rgb(100,150,200);
+}
+a:hover {
+	color:rgb(175,175,175);
+}
+p {
+	color:rgb(50,50,50);
+	line-height:2;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+/* =Template -------------------------------------------------------------- */
+
+ #wrapper {
+	width:100%;
+	min-height:100%;
+	height:100%;
+ padding-bottom:200px;
+ flex: 1;
+}
+/* =Footer -------------------------------------------------------------- */
+ .footer {
+	overflow:auto;
+	width:100%;
+	padding-top:5%;
+ bottom: 0;
+ width: 100%;
+ height: 200px;
+ margin-top: -200px;
+ background-color:#d7d7d7;
+}
+.footer p {
+	text-align:center;
+	font-size: 3vw;
+}
+.footer img
+{
+ width: 8%;
+ margin:1%;
+ margin-bottom: 5%;
+}
+.content {
+	width:100%;
+max-width: 100%;
+	min-height:100%;
+	
+}
+/* =Extras -------------------------------------------------------------- */
+ .clearfix:after {
+	visibility:hidden;
+	display:block;
+	content:"";
+	clear:both;
+	height:0;
+}
+/*dropdown*/
+ nav {
+	font-size:large;
+	font-weight:500;
+	padding:10px 0;
+ text-align: center;
+ padding-top: 2%;
+
+}
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+nav ul li {
+	display:inline-block;
+	position:relative;
+}
+/* sub navigation --------------------------------------------------------------*/
+ nav li ul {
+	position:absolute;
+	left:0;
+	top:40px;
+	/* make this equal to the line-height of the links (specified below) */
+     width:100%;
+}
+nav li li {
+	position:relative;
+	margin:0;
+	display:block;
+}
+nav li li ul {
+	position:absolute;
+	top:0;
+	left:200px;
+	/* make this equal to the width of the sub nav above */
+     margin:0;
+}
+/* style all links -------------------------------------------------------------*/
+ nav a {
+	line-height:40px;
+	padding:0 0.2em;
+	margin:0 0.2em;
+}
+nav a {
+	color:#fff;
+	text-decoration:none;
+	display:block;
+}
+nav a:hover,nav a:focus,nav a:active {
+	color:rgb(175, 175, 175);
+}
+/* style sub level links --------------------------------------------------------------*/
+ nav li li a {
+	border-bottom:solid 1px rgb(255,255,255);
+	margin:0 10px;
+	padding:0;
+}
+nav li li:last-child a {
+	border-bottom:none;
+}
+/* hide sub menu links --------------------------------------------------------------*/
+ ul.sub-menu {
+	display:none;
+}
+/* show arrows for dropdowns --------------------------------------------------------------*/
+ nav li.dropdown > a {
+	background-image:url('../img/arrow-down.png');
+	background-position:right 20px;
+	background-repeat:no-repeat;
+}
+nav li li.dropdown > a {
+	background-image:url('../img/arrow-right.png');
+	background-position:right 16px;
+	background-repeat:no-repeat;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+
+}
+@media screen and (min-width: 1280px) {
+ .footer {
+	overflow:auto;
+	width:100%;
+	padding-top:5%;
+ bottom: 0;
+ width: 100%;
+ height: 260px;
+ margin-top: -260px;
+ background-color:#d7d7d7;
+}
+ #wrapper {
+	width:100%;
+	min-height:100%;
+	height:100%;
+ padding-bottom:260px;
+ flex: 1;
+}
+
+
+}
